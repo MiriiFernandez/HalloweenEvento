@@ -38,35 +38,84 @@ picture {
   border: 2px solid black;
   background-color: #d13f00;
   font-size: 20px;
-  padding: 12px;
+  padding: 10px;
   margin-left: 200px;
 }
 
 /* Seccion Imagenes con texto */
-/* Primera card */
-.imagenCard1 {
-  background-image: url(../img/Card1@2x.webp);
+.imagen {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 10vh;
+  width: 100%;
+  height: 93px;
 }
-/* Parrafo  */
-.card1 {
+
+/* Primera imagen de card */
+.uno {
+  background-image: url(../img/Card1@2x.webp);
+}
+
+/* Segunda imagen de card */
+.dos {
+  background-image: url(../img/Card2@2x.webp);
+}
+
+/* Tercera imagen de card */
+.tres {
+  background-image: url(../img/Card3@2x.webp);
+}
+
+/* Parrafos de las imagenes */
+.parrafoImagen {
+  margin-top: 10px;
+  font-family: Halloween;
+}
+
+/* Seccion perfiles */
+/* Primer Perfil */
+.perfil_uno {
+  background-image: url(../img/Perfil1@2x.webp);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 160px;
+  height: 150px;
+  margin-left: 60px;
+}
+
+.parrafoPerfil{
+  margin-top: 10px;
+  font-family: Halloween;
+}
+
+/* Segundo Perfil */
+.perfil_dos{
+  background-image: url(../img/Perfil2@2x.webp);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 160px;
+  height: 150px;
+  margin-left: 60px;
+}
+
+/* Seccion Formulario */
+footer{
   text-align: center;
   justify-content: center;
 }
 
-/* Segunda card */
-.card2 {
-  padding-top: 10px;
+.tituloForm{
+  text-align: center;
+  font-family: Halloween;
 }
 
-.imagenCard2 {
-  background-image: url(../img/Card2@2x.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 10vh;
+input{
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
+/* Seccion Redes Sociales */
