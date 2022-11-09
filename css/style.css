@@ -1,1 +1,72 @@
+/* Tipografias */
+@font-face {
+  font-family: "Halloween";
+  src: url(../font/Corpus.woff2);
+}
+
+/* Contenedor */
+.container {
+  background-color: #d13f00;
+  height: 2095px;
+}
+
+.banner {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Imagen banner */
+picture {
+  padding: 12px;
+}
+
+/* Titulos */
+.titulo {
+  font-family: Halloween;
+}
+
+.subTitle {
+  font-family: Halloween;
+}
+
+.subParrafo {
+  font-family: Halloween;
+}
+
+/* Boton Saber mas */
+.botonSaber {
+  border: 2px solid black;
+  background-color: #d13f00;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 200px;
+}
+
+/* Seccion Imagenes con texto */
+/* Primera card */
+.imagenCard1 {
+  background-image: url(../img/Card1@2x.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+}
+/* Parrafo  */
+.card1 {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Segunda card */
+.card2 {
+  padding-top: 10px;
+}
+
+.imagenCard2 {
+  background-image: url(../img/Card2@2x.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+}
 
