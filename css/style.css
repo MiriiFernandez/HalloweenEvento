@@ -116,7 +116,10 @@ footer{
 
 input{
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 12px;
+  width: 300px;
+  font-family: Halloween;
+  
 }
 
 /* Seccion Redes Sociales */
