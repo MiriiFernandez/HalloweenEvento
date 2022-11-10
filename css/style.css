@@ -7,7 +7,8 @@
 /* Contenedor */
 .container {
   background-color: #d13f00;
-  height: 2095px;
+  height: 2000px;
+  width: 390px;
 }
 
 .banner {
@@ -119,3 +120,36 @@ input{
 }
 
 /* Seccion Redes Sociales */
+.rdss{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  padding-top: 10px;
+}
+
+.Facebook{
+  background-image: url(../img/svg/Facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Twitter{
+  background-image: url(../img/svg/Twitter.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Instagram{
+  background-image: url(../img/svg/Instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
