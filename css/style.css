@@ -1,7 +1,9 @@
 /* Tipografias */
 @font-face {
   font-family: "Halloween";
-  src: url(../font/Corpus.woff2);
+  src: url('../font/Corpus.woff2') format('woff2'),
+      url('../font/Corpus.woff') format('woff'),
+      url('../font/Corpus.ttf') format('truetype');
 }
 
 /* Contenedor */
