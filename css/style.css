@@ -43,6 +43,7 @@ picture {
   font-size: 20px;
   padding: 10px;
   margin-left: 200px;
+  font-family: Halloween;
 }
 
 /* Seccion Imagenes con texto */
@@ -122,6 +123,11 @@ input{
   width: 300px;
   font-family: Halloween;
   
+}
+
+.botonEnviar{
+  background-color: #d13f00;
+  font-size: 20px;
 }
 
 /* Seccion Redes Sociales */
